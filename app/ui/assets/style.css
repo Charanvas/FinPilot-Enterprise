@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* =======================================================
+GLOBAL
+======================================================= */
+
+html,
+body,
+[class*="css"] {
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+.stApp{
+
+    background:#F4F7FC;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
+
+footer{
+
+    visibility:hidden;
+
+}
+
+#MainMenu{
+
+    visibility:hidden;
+
+}
+
+.block-container{
+
+    max-width:1600px;
+
+    padding-top:35px;
+
+    padding-left:40px;
+
+    padding-right:40px;
+
+}
+
+/* =======================================================
+TITLE
+======================================================= */
+
+.main-title{
+
+    font-size:42px;
+
+    font-weight:800;
+
+    color:#0F172A;
+
+}
+
+.subtitle{
+
+    font-size:18px;
+
+    color:#64748B;
+
+    margin-bottom:30px;
+
+}
+
+/* =======================================================
+CARDS
+======================================================= */
+
+.metric-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    box-shadow:0 10px 25px rgba(15,23,42,.08);
+
+    border:1px solid #E5E7EB;
+
+    min-height:170px;
+
+    transition:.3s;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(15,23,42,.15);
+
+}
+
+.metric-icon{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+
+}
+
+.metric-title{
+
+    font-size:15px;
+
+    color:#64748B;
+
+}
+
+.metric-value{
+
+    margin-top:10px;
+
+    font-size:36px;
+
+    font-weight:800;
+
+    color:#111827;
+
+}
+
+.metric-footer{
+
+    margin-top:14px;
+
+    color:#16A34A;
+
+    font-size:14px;
+
+}
+
+/* =======================================================
+SECTIONS
+======================================================= */
+
+.section{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-top:20px;
+
+    box-shadow:0 8px 18px rgba(15,23,42,.08);
+
+}
+
+/* =======================================================
+SIDEBAR
+======================================================= */
+
+[data-testid="stSidebar"]{
+
+    background:#111827;
+
+}
+
+[data-testid="stSidebar"] *{
+
+    color:white;
+
+}
+
+[data-testid="stSidebar"] hr{
+
+    border-color:#374151;
+
+}
+
+/* =======================================================
+BUTTONS
+======================================================= */
+
+.stButton>button{
+
+    width:100%;
+
+    height:50px;
+
+    border-radius:12px;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+}
+
+/* =======================================================
+UPLOAD
+======================================================= */
+
+[data-testid="stFileUploader"]{
+
+    border:2px dashed #CBD5E1;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    background:white;
+
+}
+
+/* =======================================================
+TABLE
+======================================================= */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+/* =======================================================
+SUCCESS
+======================================================= */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+/* =======================================================
+INFO
+======================================================= */
+
+.stInfo{
+
+    border-radius:12px;
+
+}
+
+/* =======================================================
+WARNING
+======================================================= */
+
+.stWarning{
+
+    border-radius:12px;
+
+}
+
+/* =======================================================
+ERROR
+======================================================= */
+
+.stError{
+
+    border-radius:12px;
+
+}
