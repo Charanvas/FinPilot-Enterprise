@@ -262,17 +262,6 @@ Similarly:
 - Executive analytics dashboard
 - Modular and scalable backend
 
----
 
-# 👩‍💻 Author
-
-**Samanuri Sri Manasa Varma**
-
-AI & Machine Learning Engineer
-
-- GitHub: https://github.com/manasaavarmaa
-- LinkedIn: https://www.linkedin.com/in/smanasavarma/
-
----
 
 # ⭐ If you found this project interesting, consider giving it a Star!
